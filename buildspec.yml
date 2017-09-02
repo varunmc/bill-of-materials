@@ -5,6 +5,6 @@ phases:
     commands:
       - mvn clean install
 
-  post-build:
+  post_build:
     commands:
       - mvn deploy:deploy
