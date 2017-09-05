@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="bill-of-materials" target="1.5" />
       <module name="bom" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -14,6 +14,17 @@
 		<kafka.version>0.11.0.0</kafka.version>
 	</properties>
 
+	<distributionManagement>
+		<repository>
+			<id>s3-release</id>
+			<url>s3://maven.varun.mc/release</url>
+		</repository>
+		<snapshotRepository>
+			<id>s3-snapshot</id>
+			<url>s3://maven.varun.mc/snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -68,4 +79,14 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
+	<build>
+		<extensions>
+			<extension>
+				<groupId>org.springframework.build</groupId>
+				<artifactId>aws-maven</artifactId>
+				<version>5.0.0.RELEASE</version>
+			</extension>
+		</extensions>
+	</build>
 </project>
