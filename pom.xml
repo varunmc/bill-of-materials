@@ -16,13 +16,9 @@
 
 	<distributionManagement>
 		<repository>
-			<id>s3-release</id>
-			<url>s3://maven.varun.mc/release</url>
+			<id>maven-s3</id>
+			<url>s3://maven.varun.mc</url>
 		</repository>
-		<snapshotRepository>
-			<id>s3-snapshot</id>
-			<url>s3://maven.varun.mc/snapshot</url>
-		</snapshotRepository>
 	</distributionManagement>
 
 	<dependencyManagement>
