@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>mc.varun</groupId>
-	<artifactId>bom</artifactId>
+	<artifactId>bill-of-materials</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Bill of Materials</name>
