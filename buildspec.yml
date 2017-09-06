@@ -3,7 +3,7 @@ version: 0.1
 phases:
   build:
     commands:
-      - mvn clean install
+      - mvn install
 
   post_build:
     commands:
