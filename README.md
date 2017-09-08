@@ -1,4 +1,6 @@
 # bill-of-materials
-_Maven Bill of Materials_
+_xdd  Declaration of all third-party maven artifacts used by the platform_
 
-For more information, read [Importing Dependencies](https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Importing_Dependencies).
+A Maven "Bill of Materials" is an artifact of type POM and it serves as a static declaration of all external Maven artifacts used by the platform. These are expressed as Maven dependencies.
+
+ 
