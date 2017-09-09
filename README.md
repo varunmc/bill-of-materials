@@ -1,7 +1,7 @@
 # bill-of-materials
 _Declaration of all external Maven artifacts used by the platform_
 
-A "Bill of Materials" (BOM) is a POM defining the default version of dependencies that could be used by a project. That project would then import this BOM thereby making available all declared dependencies. For more information, read [Importing Dependencies](https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Importing_Dependencies).
+A "Bill Of Materials" (BOM) is a POM defining the default version of dependencies that could be used by a project. That project would then import this BOM thereby making available all declared dependencies. For more information, read [Importing Dependencies](https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Importing_Dependencies).
 
 _**This BOM is imported into the platform [parent](https://github.com/varunmc/parent).**_
 
