@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: Bill Of Materials Stack
+Description: Build Pipeline for Bill Of Materials
 
 ####################
 Parameters:
