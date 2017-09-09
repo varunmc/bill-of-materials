@@ -78,6 +78,7 @@
 
 	<build>
 		<extensions>
+			<!-- enables s3:// transport -->
 			<extension>
 				<groupId>org.springframework.build</groupId>
 				<artifactId>aws-maven</artifactId>
